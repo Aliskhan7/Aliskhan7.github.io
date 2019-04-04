@@ -1,0 +1,1 @@
+$(function(){$(".toggles button").click(function(){var o=this.id,t=$(".posts ."+o);$(".post").not(t).hide(500),t.show(500)}),$("#showall").click(function(){$(".post").show(500)})}),$(document).ready(function(){$(".owl-carousel").owlCarousel({items:7})}),$(window).width()<420&&$(".owl-carousel").owlCarousel({items:3});

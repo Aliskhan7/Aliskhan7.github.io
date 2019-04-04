@@ -1,0 +1,220 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: url(img/first-bg.jpg) no-repeat center top / cover;
+	height: 100vh;
+}
+.container{
+	width: 930px;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	margin-top: 41px;
+}
+nav{
+	float: right;
+	margin-top: 50px;
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li{
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+a:hover{color: #FFD114;}
+
+.text-1, .text-2, .text-3, 
+.text-4, .text-botton, 
+h1, p{text-align: center; color: black;}
+
+.text-1, .text-2{
+	font-size: 40px;
+	margin-top: 320px;
+	color: white;
+}
+.text-2{
+	margin-top: -20px;
+	font-size: 70px;
+}
+.text-botton{
+	border-radius: 5px;
+	background-color: #FED136;
+	width: 200px;
+	margin-top: 100px;
+	font-size: 20px;
+	padding: 20px;
+	margin-left: 340px;
+}
+.text-botton:hover{
+	background-color: black; 
+	color: white;
+	border-radius: 5px;
+}
+/*Шапка сайта*/
+.text-3, .text-5{
+	font-size: 30px;
+	margin-top: 95px;
+}
+.text-4{
+	color: #8D8D8D;
+	margin-top: -10px;
+	font-size: 13px;
+}
+.cont_block {
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	width: 230px;
+	margin-left: 60px;
+	margin-top: 70px;
+	margin-bottom: 20px;
+	color: #878787;
+}
+.cont_block p{	
+	color: #777777;
+	line-height: 1.5;
+}
+.title h2 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 12px;
+	margin-top: -20px;
+}
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
+.works {
+	margin-top: 70px;
+}
+
+.works img {
+	float: left;
+}
+
+.works img:nth-child(2) {
+	margin-left: 29px;
+}
+
+.works img:last-child {
+	float: right;
+}
+/*Блок о портфолио*/
+.title_2 h2 {
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+
+.title_2 p {
+	color: #777777;
+	text-align: center;
+	font-size: 12px;
+	margin-top: -20px;
+}
+.review{
+	overflow: hidden;
+	margin-top: 100px;
+	margin-left: 25px;
+}
+.text_rev1{
+	float: left;
+	width: 300px;
+	margin-right: 45px;
+	font-size: 14px;
+}
+.text_rev1 img {
+	float: right;
+	margin-left: 200px;
+}
+.h2, .p1 {
+	text-align: right;
+	line-height: 1.5;
+}
+.review_1{
+	overflow: hidden;
+	margin-top: 100px;
+	margin-left: 370px;
+}
+.text_rev2{
+	float: right;
+	width: 300px;
+	margin-right: 45px;
+	font-size: 14px;
+}
+.h3, .p2 {
+	text-align: left;
+}
+.review_2{
+	overflow: hidden;
+	margin-top: 100px;
+	margin-left: 25px;
+}
+.text_rev3{
+	float: left;
+	width: 300px;
+	margin-right: 45px;
+	font-size: 14px;
+}
+.text_rev1 img {
+	float: right;
+	margin-left: 200px;
+}
+
+.review_1{
+	overflow: hidden;
+	margin-top: 100px;
+	margin-left: 370px;
+}
+.text_rev2{
+	float: right;
+	width: 300px;
+	margin-right: 45px;
+	font-size: 14px;
+}
+.h3, .p2 {
+	text-align: left;
+	line-height: 1.5;
+}
+.p2, .p1{
+	color: #777777;
+	line-height: 1.5;
+}
+/*блок абоут*/
+.p3{
+	margin: 150px 0 100px 0;
+	color: #777777; 
+}
+
+
+
+
+
+
+
